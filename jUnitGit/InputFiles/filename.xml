@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flist>
+    <VALUE_RANGES elem="0">
+        <VALUE>Short numbers;CYTA_SERVICES</VALUE>
+        <VALUE_RANGES elem="0">
+            <VALUE>*</VALUE>
+            <VALUE_RANGES elem="0">
+                <VALUE>*</VALUE>
+                <VALUE_RANGES elem="0">
+                    <VALUE>*</VALUE>
+                    <VALUE_RANGES elem="0">
+                        <VALUE>*</VALUE>
+                        <VALUE_RANGES elem="0">
+                            <VALUE>*</VALUE>
+                            <VALUE_RANGES elem="0">
+                                <IMPACT_CATEGORY>SH_CYTA_SERVICES</IMPACT_CATEGORY>
+                                <RATE_PLAN_NAME>Short numbers</RATE_PLAN_NAME>
+                                <VALUE>*</VALUE>
+                            </VALUE_RANGES>
+                        </VALUE_RANGES>
+                    </VALUE_RANGES>
+                </VALUE_RANGES>
+            </VALUE_RANGES>
+        </VALUE_RANGES>
+    </VALUE_RANGES>
+    <VALUE_RANGES elem="1">
+        <VALUE>Short numbers;CYTA_13877</VALUE>
+        <VALUE_RANGES elem="0">
+            <VALUE>*</VALUE>
+            <VALUE_RANGES elem="0">
+                <VALUE>*</VALUE>
+                <VALUE_RANGES elem="0">
+                    <VALUE>*</VALUE>
+                    <VALUE_RANGES elem="0">
+                        <VALUE>*</VALUE>
+                        <VALUE_RANGES elem="0">
+                            <VALUE>*</VALUE>
+                            <VALUE_RANGES elem="0">
+                                <IMPACT_CATEGORY>SH_CYTA_13877</IMPACT_CATEGORY>
+                                <RATE_PLAN_NAME>Short numbers</RATE_PLAN_NAME>
+                                <VALUE>*</VALUE>
+                            </VALUE_RANGES>
+                        </VALUE_RANGES>
+                    </VALUE_RANGES>
+                </VALUE_RANGES>
+            </VALUE_RANGES>
+        </VALUE_RANGES>
+    </VALUE_RANGES>
+</flist>

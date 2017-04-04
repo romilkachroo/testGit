@@ -1,0 +1,14 @@
+mkdir -p CytaCustomFields
+cat cyta_flds.h cyta_ops.h > cyta_ops_flds.h
+perl /opt/portal/7.4/bin/parse_custom_ops_fields.pl -L pcmjava -I cyta_ops_flds.h -O CytaCustomFields -P CytaCustomFields
+
+javac -classpath /opt/portal/7.4/jars/pcm.jar:/opt/portal/7.4/jars/pcmext.jar:. -d . CytaCustomFields/*.java
+
+jar -cvf CytaCustomFields.jar CytaCustomFields/*.class
+
+chmod 777 CytaCustomFields.jar
+
+/opt/portal/7.4/include/CytaCustomFields
+
+
+perl /opt/portal/7.4/bin/parse_custom_ops_fields.pl -L pcmc -I cyta_ops.h -O /opt/portal/7.4/lib/cyta_ops.dat 

@@ -1,0 +1,73 @@
+# PCM_OP_CUST_COMMIT_CUSTOMER
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /plan 2027888 16
+0 PIN_FLD_SERVICES      ARRAY [0] allocated 20, used 13
+1     PIN_FLD_PASSWD    STR [0] "password" 
+1     PIN_FLD_LOGIN           STR [0] "telco"
+1     PIN_FLD_SUBSCRIPTION_OBJ   POID [0] NULL poid pointer
+1     PIN_FLD_SERVICE_ID      STR [0] "telservice1"
+1     PIN_FLD_DEVICES       ARRAY [0] allocated 20, used 2
+2         PIN_FLD_DEVICE_OBJ     POID [0] 0.0.0.1 /device/num 1376068 1
+2         PIN_FLD_FLAGS           INT [0] 1
+1     PIN_FLD_DEALS         ARRAY [0] allocated 20, used 14
+2         PIN_FLD_ACCOUNT_OBJ    POID [0] 0.0.0.1 /account 1 0
+2         PIN_FLD_DEAL_OBJ       POID [0] 0.0.0.1 /deal 2028144 0
+1     PIN_FLD_SERVICE_OBJ    POID [0] 0.0.0.1 /service/telco/gsm/telephony -1 0
+0 PIN_FLD_SERVICES      ARRAY [1] allocated 20, used 13
+1     PIN_FLD_PASSWD    STR [0] "password" 
+1     PIN_FLD_LOGIN           STR [0] "telco"
+1     PIN_FLD_SUBSCRIPTION_OBJ   POID [0] NULL poid pointer
+1     PIN_FLD_SERVICE_ID      STR [0] "gprsservice1"
+1     PIN_FLD_DEVICES       ARRAY [0] allocated 20, used 2
+2         PIN_FLD_DEVICE_OBJ     POID [0] 0.0.0.1 /device/num 1376068 1
+2         PIN_FLD_FLAGS           INT [0] 1
+1     PIN_FLD_DEALS         ARRAY [0] allocated 20, used 14
+2         PIN_FLD_ACCOUNT_OBJ    POID [0] 0.0.0.1 /account 1 0
+2         PIN_FLD_DEAL_OBJ       POID [0] 0.0.0.1 /deal 2030192 0
+1     PIN_FLD_SERVICE_OBJ    POID [0] 0.0.0.1 /service/telco/gprs -1 0
+0 PIN_FLD_CODE            STR [0] "8dd58fb0-c7ef-49b8-a56f-d078ba85599a"
+0 PIN_FLD_NAMEINFO      ARRAY [1] allocated 20, used 10
+1     PIN_FLD_LAST_NAME       STR [0] "Account"
+1     PIN_FLD_FIRST_NAME      STR [0] "First"
+1     PIN_FLD_SALUTATION      STR [0] "Mr"
+1     PIN_FLD_CONTACT_TYPE    STR [0] "Account holder"
+1     PIN_FLD_EMAIL_ADDR      STR [0] "first.account@cvl.com"
+1     PIN_FLD_COUNTRY         STR [0] "IN"
+1     PIN_FLD_ZIP             STR [0] "123456"
+1     PIN_FLD_STATE           STR [0] "Karnataka"
+1     PIN_FLD_CITY            STR [0] "BLR"
+1     PIN_FLD_ADDRESS         STR [0] "test"
+0 PIN_FLD_NAME            STR [0] "test_prepaid_package"
+0 PIN_FLD_DEAL_OBJ       POID [0] 0.0.0.0 / 0 0
+0 PIN_FLD_ACCTINFO      ARRAY [0] allocated 20, used 4
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /account -1 0
+1     PIN_FLD_BAL_INFO      ARRAY [0]     NULL array ptr
+1     PIN_FLD_CURRENCY        INT [0] 840
+1     PIN_FLD_BUSINESS_TYPE   ENUM [0] 1
+0 PIN_FLD_DESCR           STR [0] ""
+0 PIN_FLD_FLAGS           INT [0] 0
+0 PIN_FLD_PAYINFO       ARRAY [0] allocated 20, used 6
+1     PIN_FLD_INV_TYPE       ENUM [0] 257
+1     PIN_FLD_NAME            STR [0] "Invoice1"
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /payinfo/invoice -1 0
+1     PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 20, used 1
+2         PIN_FLD_INV_INFO      ARRAY [0] allocated 20, used 10
+3             PIN_FLD_DELIVERY_PREFER   ENUM [0] 0
+3             PIN_FLD_NAME            STR [0] "First Account"
+3             PIN_FLD_INV_TERMS      ENUM [0] 0
+3             PIN_FLD_DELIVERY_DESCR    STR [0] "first.account@cvl.com"
+3             PIN_FLD_EMAIL_ADDR      STR [0] ""
+3             PIN_FLD_COUNTRY         STR [0] "IN"
+3             PIN_FLD_ZIP             STR [0] "123456"
+3             PIN_FLD_STATE           STR [0] "Karnataka"
+3             PIN_FLD_CITY            STR [0] "BLR"
+3             PIN_FLD_ADDRESS         STR [0] "test"
+1     PIN_FLD_FLAGS           INT [0] 1
+1     PIN_FLD_PAY_TYPE       ENUM [0] 10001
+0 PIN_FLD_BILLINFO      ARRAY [0] allocated 20, used 5
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /billinfo -1 0
+1     PIN_FLD_BILLINFO_ID     STR [0] "Bill Unit(1)"
+1     PIN_FLD_PAYINFO       ARRAY [0]     NULL array ptr
+1     PIN_FLD_BAL_INFO      ARRAY [0]     NULL array ptr
+1     PIN_FLD_PAY_TYPE       ENUM [0] 10001
+0 PIN_FLD_LOCALES       ARRAY [1] allocated 20, used 1
+1     PIN_FLD_LOCALE          STR [0] "en_US"

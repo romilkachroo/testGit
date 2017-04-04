@@ -1,0 +1,336 @@
+Error 01/25/17 2:17:07:0584 PM ( 1485334027584 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:38:1485334027:0
+	ERR_BAD_FIELD_NAME
+ERR_BAD_FIELD_NAME
+FList.java:0: ErrBuf Fields:
+Error=ERR_BAD_FIELD_NAME    Loc=PCM
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=2:17 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.cvl.brm.createCust.CytaCreateCust.cytaCreateBACustomerFromFile(CytaCreateCust.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 2:17:32:0977 PM ( 1485334052978 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:38:1485334052:0
+	ERR_BAD_FIELD_NAME
+ERR_BAD_FIELD_NAME
+FList.java:0: ErrBuf Fields:
+Error=ERR_BAD_FIELD_NAME    Loc=PCM
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=2:17 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.cvl.brm.createCust.CytaCreateCust.cytaCreateBACustomerFromFile(CytaCreateCust.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 2:18:42:0325 PM ( 1485334122326 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:38:1485334122:0
+	ERR_BAD_FIELD_NAME
+ERR_BAD_FIELD_NAME
+FList.java:0: ErrBuf Fields:
+Error=ERR_BAD_FIELD_NAME    Loc=PCM
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=2:18 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.cvl.brm.createCust.CytaCreateCust.cytaCreateBACustomerFromFile(CytaCreateCust.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 2:30:16:0832 PM ( 1485334816832 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:38:1485334816:0
+	ERR_BAD_FIELD_NAME
+ERR_BAD_FIELD_NAME
+FList.java:0: ErrBuf Fields:
+Error=ERR_BAD_FIELD_NAME    Loc=PCM
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=2:30 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.portal.pcm.FList.createFromString(Unknown Source)
+	at com.cvl.brm.createCust.CytaCreateCust.cytaCreateBACustomerFromFile(CytaCreateCust.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 2:32:02:0013 PM ( 1485334922013 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:63:1485334921:0
+	ERR_STORAGE
+ERR_STORAGE
+FList.java:0: ErrBuf Fields:
+Error=ERR_STORAGE    Loc=DM
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=5:30 AM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.FList.readError(Unknown Source)
+	at com.portal.pcm.FList.createObjectFromStream(Unknown Source)
+	at com.portal.pcm.FList.loadFromStream(Unknown Source)
+	at com.portal.pcm.FList.createFromStream(Unknown Source)
+	at com.portal.pcm.PCPClientOperation.receive(Unknown Source)
+	at com.portal.pcm.PCPClientOperation.executeReceive(Unknown Source)
+	at com.portal.pcm.PCPClientOperation.execute(Unknown Source)
+	at com.portal.pcm.PCPContext.op(Unknown Source)
+	at com.portal.pcm.PortalContext.opcode(Unknown Source)
+	at com.portal.pcm.PortalContext.opcode(Unknown Source)
+	at com.cvl.brm.createCust.CytaCreateCust.cytaCreateBACustomerFromFile(CytaCreateCust.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 4:27:57:0931 PM ( 1485341877932 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:0:1485341877:0
+	ERR_NAP_CONNECT_FAILED
+ERR_NAP_CONNECT_FAILED
+java.lang.String:0: ErrBuf Fields:
+Error=ERR_NAP_CONNECT_FAILED    Loc=PCP
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=4:27 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.PCPConnection.connect(Unknown Source)
+	at com.portal.pcm.PCPConnection.reconnect(Unknown Source)
+	at com.portal.pcm.PCPContext.<init>(Unknown Source)
+	at com.portal.pcm.PortalContext.open(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.cvl.brm.tf.utils.BRMTestAbstract.connect(BRMTestAbstract.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 4:28:31:0658 PM ( 1485341911658 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:0:1485341911:0
+	ERR_NAP_CONNECT_FAILED
+ERR_NAP_CONNECT_FAILED
+java.lang.String:0: ErrBuf Fields:
+Error=ERR_NAP_CONNECT_FAILED    Loc=PCP
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=4:28 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.PCPConnection.connect(Unknown Source)
+	at com.portal.pcm.PCPConnection.reconnect(Unknown Source)
+	at com.portal.pcm.PCPContext.<init>(Unknown Source)
+	at com.portal.pcm.PortalContext.open(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.cvl.brm.tf.utils.BRMTestAbstract.connect(BRMTestAbstract.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+Error 01/25/17 4:28:56:0048 PM ( 1485341936048 )  T:main JavaLog EBufException thrown 1:Romil-PC:UnknownProgramName:0:main:0:1485341936:0
+	ERR_NAP_CONNECT_FAILED
+ERR_NAP_CONNECT_FAILED
+java.lang.String:0: ErrBuf Fields:
+Error=ERR_NAP_CONNECT_FAILED    Loc=PCP
+Field=UnknownField0    Rec=0    reserved=0
+Facility=0    MessageID=0    Time=4:28 PM    Version=0    Reserved2=0
+Args=<none>
+Nested Error:
+<none>
+
+	at com.portal.pcm.PCPConnection.connect(Unknown Source)
+	at com.portal.pcm.PCPConnection.reconnect(Unknown Source)
+	at com.portal.pcm.PCPContext.<init>(Unknown Source)
+	at com.portal.pcm.PortalContext.open(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.portal.pcm.PortalContext.connect(Unknown Source)
+	at com.cvl.brm.tf.utils.BRMTestAbstract.connect(BRMTestAbstract.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+

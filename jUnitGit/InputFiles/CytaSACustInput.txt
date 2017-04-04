@@ -1,0 +1,57 @@
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /plan -1 0
+0 PIN_FLD_FLAGS           INT [0] 0
+0 PIN_FLD_BILLINFO      ARRAY [0] allocated 20, used 5
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /billinfo -1 0
+1     PIN_FLD_BILLINFO_ID     STR [0] "$1"
+1     PIN_FLD_AR_BILLINFO_OBJ   POID [0] 0.0.0.1 /billinfo 123456 0
+1     PIN_FLD_PARENT_BILLINFO_OBJ   POID [0] 0.0.0.1 /billinfo 123456 0
+1     PIN_FLD_PAY_TYPE       ENUM [0] 10007
+0 PIN_FLD_PAYINFO       ARRAY [0] allocated 20, used 2
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /payinfo/cyta_invoice 123456 0
+1     PIN_FLD_PAY_TYPE       ENUM [0] 10007
+0 PIN_FLD_GROUP_INFO   SUBSTRUCT [0] allocated 20, used 1
+1     PIN_FLD_PARENT         POID [0] 0.0.0.1 /account 123456 0
+0 PIN_FLD_ACCTINFO      ARRAY [0] allocated 20, used 6
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /account -1 0
+1     PIN_FLD_ACCOUNT_NO      STR [0] "$6"
+1     PIN_FLD_BUSINESS_TYPE   ENUM [0] 1
+1     PIN_FLD_CURRENCY        INT [0] 978
+1     PIN_FLD_BAL_INFO      ARRAY [0]     NULL array ptr
+1     PIN_FLD_AAC_PACKAGE     STR [0] "CYTA_PRODUCT_CATEGORY"
+0 PIN_FLD_NAMEINFO      ARRAY [1] allocated 20, used 11
+1     PIN_FLD_COMPANY         STR [0] "NAMEINFO_SA"
+1     PIN_FLD_ADDRESS         STR [0] "NAMEINFO_SA_Address"
+1     PIN_FLD_CITY            STR [0] "NAMEINFO_SA_City"
+1     PIN_FLD_COUNTRY         STR [0] "GR"
+1     PIN_FLD_EMAIL_ADDR      STR [0] "sa@hotmail.com"
+1     PIN_FLD_FIRST_NAME      STR [0] "NAMEINFO_SA_FirstName"
+1     PIN_FLD_LAST_NAME       STR [0] "NAMEINFO_SA_LastName"
+1     PIN_FLD_CONTACT_TYPE    STR [0] "Service"
+1     PIN_FLD_STATE           STR [0] "NAMEINFO_SA_Athens"
+1     PIN_FLD_ZIP             STR [0] "14562"
+1     PIN_FLD_TITLE           STR [0] "3654"
+0 PIN_FLD_BAL_INFO      ARRAY [0] allocated 20, used 3
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /balance_group -1 0
+1     PIN_FLD_NAME            STR [0] "Default BG - SA"
+1     PIN_FLD_BILLINFO      ARRAY [0]     NULL array ptr
+0 PIN_FLD_PROFILES      ARRAY [0] allocated 20, used 2
+1     PIN_FLD_PROFILE_OBJ    POID [0] 0.0.0.1 /profile/cyta_account -1 0
+1     PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 20, used 5
+2         PIN_FLD_PROFILE_INFO SUBSTRUCT [0] allocated 20, used 1
+3             CYT_FLD_HEAD_NUMBER     STR [0] "HEAD NUMBER"
+2         CYTA_FLD_LLU_LIST     ARRAY [0] allocated 20, used 1
+3             CYT_FLD_LLU_ID          STR [0] "LLU ID_1"
+2         CYTA_FLD_LLU_LIST     ARRAY [1] allocated 20, used 1
+3             CYT_FLD_LLU_ID          STR [0] "LLU ID_2"
+2         CYTA_FLD_LLU_LIST     ARRAY [2] allocated 20, used 1
+3             CYT_FLD_LLU_ID          STR [0] "LLU ID_3"
+2         CYTA_FLD_LLU_LIST     ARRAY [3] allocated 20, used 1
+3             CYT_FLD_LLU_ID          STR [0] "LLU ID_4"
+0 PIN_FLD_PROFILES      ARRAY [1] allocated 20, used 2
+1     PIN_FLD_PROFILE_OBJ    POID [0] 0.0.0.1 /profile/acct_extrating -1 0
+1     PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 20, used 1
+2         PIN_FLD_DATA_ARRAY    ARRAY [0] allocated 20, used 4
+3             PIN_FLD_NAME            STR [0] "loyalty"
+3             PIN_FLD_VALUE           STR [0] "gold"
+3             PIN_FLD_VALID_FROM   TSTAMP [0] (0) <null>
+3             PIN_FLD_VALID_TO     TSTAMP [0] (0) <null>

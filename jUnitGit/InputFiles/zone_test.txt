@@ -1,0 +1,32 @@
+0 PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+1     PIN_FLD_VALUE           STR [0] "Short numbers;CYTA_SERVICES"
+1     PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+2         PIN_FLD_VALUE           STR [0] "*"
+2         PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+3             PIN_FLD_VALUE           STR [0] "*"
+3             PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+4                 PIN_FLD_VALUE           STR [0] "*"
+4                 PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+5                     PIN_FLD_VALUE           STR [0] "*"
+5                     PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+6                         PIN_FLD_VALUE           STR [0] "*"
+6                         PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 3
+7                             PIN_FLD_VALUE           STR [0] "*"
+7                             PIN_FLD_RATE_PLAN_NAME    STR [0] "Short numbers"
+7                             PIN_FLD_IMPACT_CATEGORY    STR [0] "SH_CYTA_SERVICES"
+0 PIN_FLD_VALUE_RANGES  ARRAY [1] allocated 20, used 2
+1     PIN_FLD_VALUE           STR [0] "Short numbers;CYTA_13877"
+1     PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+2         PIN_FLD_VALUE           STR [0] "*"
+2         PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+3             PIN_FLD_VALUE           STR [0] "*"
+3             PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+4                 PIN_FLD_VALUE           STR [0] "*"
+4                 PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+5                     PIN_FLD_VALUE           STR [0] "*"
+5                     PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 2
+6                         PIN_FLD_VALUE           STR [0] "*"
+6                         PIN_FLD_VALUE_RANGES  ARRAY [0] allocated 20, used 3
+7                             PIN_FLD_VALUE           STR [0] "*"
+7                             PIN_FLD_RATE_PLAN_NAME    STR [0] "Short numbers"
+7                             PIN_FLD_IMPACT_CATEGORY    STR [0] "SH_CYTA_13877"
