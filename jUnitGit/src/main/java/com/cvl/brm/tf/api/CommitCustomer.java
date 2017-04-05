@@ -101,7 +101,7 @@ public class CommitCustomer {
 		
 		logger.trace("\n commit_customer input: \n\n"+inflist.asString());
 		outFlist = ctx.opcode(PortalOp.CUST_COMMIT_CUSTOMER, inflist);
-		logger.debug("commit_customer output: \n"+outFlist.asString());
+		logger.debug("commit_customer output flist: \n"+outFlist.asString());
 			} catch (EBufException ebufex) {
 		logger.error("Error in commit_customer : \n"+ebufex.toString());
 			}
